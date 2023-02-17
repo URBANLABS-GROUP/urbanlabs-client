@@ -5,11 +5,15 @@ import { TUI_SANITIZER, TuiAlertModule, TuiButtonModule, TuiDialogModule, TuiRoo
 import { NgDompurifySanitizer } from "@tinkoff/ng-dompurify"
 
 import { AppRoutingModule } from "./app-routing.module"
-import { AppComponent } from "./app.component"
+import { AppComponent } from "./app.component";
+import { AuthComponent } from './pages/auth/auth.component';
+import { HomeComponent } from './pages/home/home.component'
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    AuthComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
