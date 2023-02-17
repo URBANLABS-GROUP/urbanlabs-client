@@ -1,9 +1,15 @@
 <header>
   <div class="header">
-    <a class="page-name" routerLink="/home" routerLinkActive="active">
+    <a class="page-name" id="application-back" routerLink="/home" routerLinkActive="active">
       <tui-svg
         class="notifications"
         src="tuiIconArrowLeftLarge">
+      </tui-svg>
+    </a>
+    <a class="close-form" id="application-close" routerLink="/home" routerLinkActive="active">
+      <tui-svg
+        class="notifications"
+        src="tuiIconXLarge">
       </tui-svg>
     </a>
     <a class="page-name" routerLink="/" routerLinkActive="active">
@@ -18,6 +24,79 @@
   </div>
 </header>
 
-<div>
+<div id="applications">
+  <div class="applications">
+    <tui-accordion class="container">
+      <tui-accordion-item>
+        Необходима уборка
+        <ng-template tuiAccordionItemContent>
+          Был разлит энергетик на ковролин, необходима уборка
+        </ng-template>
+      </tui-accordion-item>
+
+      <tui-accordion-item>
+        Заказ на воду
+        <ng-template tuiAccordionItemContent>
+          <div #content>
+            Необходимо 4 бутылки воды для кулера
+          </div>
+        </ng-template>
+      </tui-accordion-item>
+
+      <tui-accordion-item>
+        Возможна задержка оплаты
+        <ng-template tuiAccordionItemContent>
+          По техническим причинам выведение денег со счета временно невозможно, прошу отсрочить внесение арендной планы
+          на 2 дня
+        </ng-template>
+      </tui-accordion-item>
+    </tui-accordion>
+  </div>
+
+  <div class="create-button">
+    <button
+      tuiButton
+      type="button"
+      appearance="primary"
+      class="tui-space_right-3 tui-space_bottom-3"
+      (click)="createApplication()"
+    >
+      Добавить заявку
+    </button>
+  </div>
+</div>
+
+<div class="create-application" id="create-application">
+  <h3>
+    Создание заявки
+  </h3>
+
+  <tui-input>
+    Заголовок
+    <input
+      tuiTextfield
+      type="text"
+    />
+  </tui-input>
+
+  <tui-input>
+    Текст заявки
+    <input
+      tuiTextfield
+      type="text"
+    />
+  </tui-input>
+
+  <div class="create-button">
+    <button
+      tuiButton
+      type="button"
+      appearance="primary"
+      class="tui-space_right-3 tui-space_bottom-3"
+      (click)="createApplication()"
+    >
+      Отправить заявку
+    </button>
+  </div>
 
 </div>

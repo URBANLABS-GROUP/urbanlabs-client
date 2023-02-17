@@ -18,3 +18,30 @@ header {
   color: #fff;
   text-decoration: none;
 }
+
+.create-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.applications {
+  padding: 10px;
+}
+
+.create-application {
+  padding: 10px;
+  display: none;
+  flex-direction: column;
+}
+
+.create-application h3 {
+  text-align: center;
+}
+
+.close-form {
+  font-size: 20px;
+  color: #fff;
+  text-decoration: none;
+  display: none;
+}
