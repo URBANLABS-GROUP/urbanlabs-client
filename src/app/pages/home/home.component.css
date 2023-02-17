@@ -1,7 +1,7 @@
 header {
   width: 100%;
   height: fit-content;
-  background-color: #526ed3;
+  background-color: hsl(227, 59%, 57%);
 
 }
 
@@ -10,6 +10,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 10px;
+  height: 45px;
 }
 
 .my-account {
@@ -20,23 +21,23 @@ header {
 .avatar {
   width: 100%;
   border-radius: 50%;
-  border: 2px solid #fff;
+  border: 2px solid hsl(0, 0%, 100%);
 }
 
 .page-name {
   font-size: 20px;
-  color: #fff;
+  color: hsl(0, 0%, 100%);
   text-decoration: none;
 }
 
 .notifications {
-  color: white;
+  color: hsl(0, 0%, 100%);
   width: 2rem;
   height: 2rem;
 }
 
 .payment {
-  background-color: rgb(80 135 251);
+  background-color: hsl(221, 96%, 65%);
   margin: 20px 10px;
   border-radius: 10px;
 }
@@ -60,7 +61,7 @@ header {
 }
 
 .my-balance p {
-  color: #fff;
+  color: hsl(0, 0%, 100%);
   margin: 0;
 }
 
@@ -92,6 +93,7 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  background-color: hsl(227, 100%, 75%);
 }
 
 .item p {
@@ -99,7 +101,7 @@ header {
   line-height: 30px;
   margin: 0;
   font-weight: 600;
-  color: #fff;
+  color: hsl(0, 0%, 100%);
 }
 
 .item-image {
@@ -110,31 +112,4 @@ header {
 
 .item-image img {
   width: 50px;
-}
-
-.applications {
-  background-color: rgb(127 155 255);
-
-}
-
-.smart-house {
-  background-color: rgb(127 155 255);
-
-}
-
-.communal-services {
-  background-color: rgb(127 155 255);
-
-}
-
-.cameras {
-  background-color: rgb(127 155 255);
-}
-
-.access-control {
-  background-color: rgb(127 155 255);
-}
-
-.documentation {
-  background-color: rgb(127 155 255);
 }
