@@ -4,6 +4,7 @@ import { AuthComponent } from "./pages/auth/auth.component"
 import { HomeComponent } from "./pages/home/home.component"
 import { PaymentComponent } from "./pages/payment/payment.component"
 import { ApplicationsComponent } from "./pages/applications/applications.component"
+import { SmartHouseComponent } from "./pages/smart-house/smart-house.component"
 
 const routes: Routes = [
   {
@@ -21,6 +22,10 @@ const routes: Routes = [
   {
     path: 'applications',
     component: ApplicationsComponent
+  },
+  {
+    path: 'smart-house',
+    component: SmartHouseComponent
   }
 
 ]

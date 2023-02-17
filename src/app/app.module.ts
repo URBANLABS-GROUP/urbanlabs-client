@@ -18,7 +18,8 @@ import { HomeComponent } from './pages/home/home.component'
 import { TuiAccordionModule, TuiCheckboxModule, TuiInputModule } from "@taiga-ui/kit"
 import { ReactiveFormsModule } from "@angular/forms";
 import { PaymentComponent } from './pages/payment/payment.component';
-import { ApplicationsComponent } from './pages/applications/applications.component'
+import { ApplicationsComponent } from './pages/applications/applications.component';
+import { SmartHouseComponent } from './pages/smart-house/smart-house.component'
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { ApplicationsComponent } from './pages/applications/applications.compone
     AuthComponent,
     HomeComponent,
     PaymentComponent,
-    ApplicationsComponent
+    ApplicationsComponent,
+    SmartHouseComponent
   ],
   imports: [
     BrowserModule,
