@@ -15,8 +15,8 @@ import { AppRoutingModule } from "./app-routing.module"
 import { AppComponent } from "./app.component";
 import { AuthComponent } from './pages/auth/auth.component';
 import { HomeComponent } from './pages/home/home.component'
-import { TuiAccordionModule, TuiCheckboxModule, TuiInputModule } from "@taiga-ui/kit"
-import { ReactiveFormsModule } from "@angular/forms";
+import { TuiAccordionModule, TuiCheckboxModule, TuiInputModule, TuiToggleModule } from "@taiga-ui/kit"
+import { FormsModule, ReactiveFormsModule } from "@angular/forms"
 import { PaymentComponent } from './pages/payment/payment.component';
 import { ApplicationsComponent } from './pages/applications/applications.component';
 import { SmartHouseComponent } from './pages/smart-house/smart-house.component'
@@ -42,7 +42,9 @@ import { SmartHouseComponent } from './pages/smart-house/smart-house.component'
     ReactiveFormsModule,
     TuiSvgModule,
     TuiCheckboxModule,
-    TuiAccordionModule
+    TuiAccordionModule,
+    TuiToggleModule,
+    FormsModule
   ],
   providers: [ { provide: TUI_SANITIZER, useClass: NgDompurifySanitizer } ],
   bootstrap: [ AppComponent ]

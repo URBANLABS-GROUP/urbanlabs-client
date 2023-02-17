@@ -18,3 +18,52 @@ header {
   color: #fff;
   text-decoration: none;
 }
+
+.house-item {
+  display: grid;
+  grid-template-columns: repeat(2, 47%);
+  padding: 10px;
+  grid-row-gap: 20px;
+  grid-column-gap: 20px;
+  justify-content: space-between;
+}
+
+.house-item-name {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.house-item-name p {
+  font-size: 25px;
+  line-height: 30px;
+  margin: 0;
+  font-weight: 600;
+  color: hsl(0, 0%, 100%);
+}
+
+.house-item-container {
+  border-radius: 10px;
+  height: 80px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  background-color: hsl(227, 100%, 75%);
+}
+
+.house-item-image {
+  display: flex;
+  align-items: end;
+}
+
+.house-item-image img {
+  width: 40px;
+}
+
+.off-button {
+  padding: 10px;
+}
+
+.off-button button {
+  width: 100%;
+}

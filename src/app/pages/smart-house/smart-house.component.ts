@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./smart-house.component.css']
 })
 export class SmartHouseComponent {
+  enabled: any
 
 }
