@@ -1,0 +1,49 @@
+.logo {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.logo img {
+  width: 60px;
+}
+
+.logo p {
+  font-size: 20px;
+}
+
+.auth {
+  margin-top: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.auth-form {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.auth-button {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.auth-button a {
+  width: 90%;
+  margin: 0;
+}
+
+.help-button {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.help-button button {
+  margin: 0;
+}

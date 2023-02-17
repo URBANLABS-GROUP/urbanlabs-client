@@ -8,6 +8,8 @@ import { AppRoutingModule } from "./app-routing.module"
 import { AppComponent } from "./app.component";
 import { AuthComponent } from './pages/auth/auth.component';
 import { HomeComponent } from './pages/home/home.component'
+import { TuiInputModule } from "@taiga-ui/kit"
+import { ReactiveFormsModule } from "@angular/forms"
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { HomeComponent } from './pages/home/home.component'
     TuiRootModule,
     TuiDialogModule,
     TuiAlertModule,
-    TuiButtonModule
+    TuiButtonModule,
+    TuiInputModule,
+    ReactiveFormsModule
   ],
   providers: [ { provide: TUI_SANITIZER, useClass: NgDompurifySanitizer } ],
   bootstrap: [ AppComponent ]
