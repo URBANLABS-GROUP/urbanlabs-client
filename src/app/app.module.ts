@@ -15,7 +15,7 @@ import { AppRoutingModule } from "./app-routing.module"
 import { AppComponent } from "./app.component";
 import { AuthComponent } from './pages/auth/auth.component';
 import { HomeComponent } from './pages/home/home.component'
-import { TuiInputModule } from "@taiga-ui/kit"
+import { TuiCheckboxModule, TuiInputModule } from "@taiga-ui/kit"
 import { ReactiveFormsModule } from "@angular/forms";
 import { PaymentComponent } from './pages/payment/payment.component'
 
@@ -36,7 +36,8 @@ import { PaymentComponent } from './pages/payment/payment.component'
     TuiButtonModule,
     TuiInputModule,
     ReactiveFormsModule,
-    TuiSvgModule
+    TuiSvgModule,
+    TuiCheckboxModule
   ],
   providers: [ { provide: TUI_SANITIZER, useClass: NgDompurifySanitizer } ],
   bootstrap: [ AppComponent ]
