@@ -1,4 +1,50 @@
-# UrbanlabsFrontend
+# 🏢 URBANLABS Client 📱
+
+Клиентское PWA-приложение для работы с системой URBANLABS.
+
+## Стек
+
+* Angular 15
+* TypeScript
+* Node 18+
+* Docker
+
+## Локальный запуск
+
+Установка зависимостей:
+
+```bash
+$ npm install
+```
+
+Тестирование и линтовка:
+
+```bash
+$ npm run test
+$ npm run lint
+```
+
+Запуск:
+
+```bash
+$ npm run start
+```
+
+## Сборка
+
+```bash
+$ npm run build:prod
+```
+
+Сборка docker образа:
+
+```bash
+$ docker build -t urbanlabs-client .
+```
+
+---
+
+# Angular
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.6.
 
