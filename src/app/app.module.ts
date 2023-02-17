@@ -16,13 +16,15 @@ import { AppComponent } from "./app.component";
 import { AuthComponent } from './pages/auth/auth.component';
 import { HomeComponent } from './pages/home/home.component'
 import { TuiInputModule } from "@taiga-ui/kit"
-import { ReactiveFormsModule } from "@angular/forms"
+import { ReactiveFormsModule } from "@angular/forms";
+import { PaymentComponent } from './pages/payment/payment.component'
 
 @NgModule({
   declarations: [
     AppComponent,
     AuthComponent,
-    HomeComponent
+    HomeComponent,
+    PaymentComponent
   ],
   imports: [
     BrowserModule,
