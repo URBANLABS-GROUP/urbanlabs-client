@@ -19,7 +19,8 @@ import { TuiAccordionModule, TuiCheckboxModule, TuiInputModule, TuiToggleModule 
 import { FormsModule, ReactiveFormsModule } from "@angular/forms"
 import { PaymentComponent } from './pages/payment/payment.component';
 import { ApplicationsComponent } from './pages/applications/applications.component';
-import { SmartHouseComponent } from './pages/smart-house/smart-house.component'
+import { SmartHouseComponent } from './pages/smart-house/smart-house.component';
+import { CommunalServicesComponent } from './pages/communal-services/communal-services.component'
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { SmartHouseComponent } from './pages/smart-house/smart-house.component'
     HomeComponent,
     PaymentComponent,
     ApplicationsComponent,
-    SmartHouseComponent
+    SmartHouseComponent,
+    CommunalServicesComponent
   ],
   imports: [
     BrowserModule,
