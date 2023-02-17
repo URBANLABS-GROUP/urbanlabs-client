@@ -1,3 +1,32 @@
 <header>
-  <a routerLink="/" routerLinkActive="active">Главная</a>
+  <div class="header">
+    <a class="my-account" routerLink="/" routerLinkActive="active">
+      <img class="avatar" src="/assets/image-home/avatar.png">
+    </a>
+    <a class="page-name" routerLink="/" routerLinkActive="active">
+      Главная
+    </a>
+    <a class="page-name" routerLink="/" routerLinkActive="active">
+      <tui-svg
+        class="notifications"
+        src="tuiIconBellLarge">
+      </tui-svg>
+    </a>
+  </div>
 </header>
+
+<div class="payment">
+  <a class="balance-container" routerLink="/" routerLinkActive="active">
+    <div class="my-balance">
+      <p class="current-balance">20 000 ₽</p>
+      <p class="small-text">Срок уплаты аренды: 1 марта</p>
+    </div>
+    <tui-svg
+      class="notifications"
+      src="tuiIconPlusCircleLarge">
+    </tui-svg>
+  </a>
+</div>
+
+
+
