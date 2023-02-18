@@ -8,6 +8,7 @@ import { SmartHouseComponent } from "./pages/smart-house/smart-house.component"
 import { CommunalServicesComponent } from "./pages/communal-services/communal-services.component"
 import { CamerasComponent } from "./pages/cameras/cameras.component"
 import { AccessControlComponent } from "./pages/access-control/access-control.component"
+import { DocumentationComponent } from "./pages/documentation/documentation.component"
 
 const routes: Routes = [
   {
@@ -41,6 +42,10 @@ const routes: Routes = [
   {
     path: 'access-control',
     component: AccessControlComponent
+  },
+  {
+    path: 'documentation',
+    component: DocumentationComponent
   }
 
 ]

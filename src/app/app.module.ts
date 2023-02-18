@@ -22,7 +22,8 @@ import { ApplicationsComponent } from './pages/applications/applications.compone
 import { SmartHouseComponent } from './pages/smart-house/smart-house.component';
 import { CommunalServicesComponent } from './pages/communal-services/communal-services.component';
 import { CamerasComponent } from './pages/cameras/cameras.component';
-import { AccessControlComponent } from './pages/access-control/access-control.component'
+import { AccessControlComponent } from './pages/access-control/access-control.component';
+import { DocumentationComponent } from './pages/documentation/documentation.component'
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { AccessControlComponent } from './pages/access-control/access-control.co
     SmartHouseComponent,
     CommunalServicesComponent,
     CamerasComponent,
-    AccessControlComponent
+    AccessControlComponent,
+    DocumentationComponent
   ],
   imports: [
     BrowserModule,
