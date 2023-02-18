@@ -18,3 +18,15 @@ header {
   color: #fff;
   text-decoration: none;
 }
+
+.cameras {
+  padding: 10px;
+}
+
+.cameras-image {
+  width: 100%;
+}
+
+.cameras-image img {
+  width: 100%;
+}
