@@ -9,6 +9,7 @@ import { CommunalServicesComponent } from "./pages/communal-services/communal-se
 import { CamerasComponent } from "./pages/cameras/cameras.component"
 import { AccessControlComponent } from "./pages/access-control/access-control.component"
 import { DocumentationComponent } from "./pages/documentation/documentation.component"
+import { PersonalAccountComponent } from "./pages/personal-account/personal-account.component"
 
 const routes: Routes = [
   {
@@ -46,6 +47,10 @@ const routes: Routes = [
   {
     path: 'documentation',
     component: DocumentationComponent
+  },
+  {
+    path: 'personal-account',
+    component: PersonalAccountComponent
   }
 
 ]

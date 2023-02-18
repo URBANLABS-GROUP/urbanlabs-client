@@ -24,7 +24,8 @@ import { CommunalServicesComponent } from './pages/communal-services/communal-se
 import { CamerasComponent } from './pages/cameras/cameras.component';
 import { AccessControlComponent } from './pages/access-control/access-control.component';
 import { DocumentationComponent } from './pages/documentation/documentation.component'
-import { TuiAxesModule, TuiBarChartModule } from "@taiga-ui/addon-charts"
+import { TuiAxesModule, TuiBarChartModule } from "@taiga-ui/addon-charts";
+import { PersonalAccountComponent } from './pages/personal-account/personal-account.component'
 
 @NgModule({
   declarations: [
@@ -37,7 +38,8 @@ import { TuiAxesModule, TuiBarChartModule } from "@taiga-ui/addon-charts"
     CommunalServicesComponent,
     CamerasComponent,
     AccessControlComponent,
-    DocumentationComponent
+    DocumentationComponent,
+    PersonalAccountComponent
   ],
   imports: [
     BrowserModule,
