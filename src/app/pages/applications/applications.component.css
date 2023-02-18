@@ -39,6 +39,12 @@ header {
   text-align: center;
 }
 
+.application-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
 .close-form {
   font-size: 20px;
   color: #fff;
