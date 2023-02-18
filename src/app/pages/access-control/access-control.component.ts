@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component } from "@angular/core"
 
 @Component({
   selector: 'urb-access-control',
@@ -9,7 +9,7 @@ export class AccessControlComponent {
   public openCamera(id: any) {
     const camera = document.getElementById(id)
     if (camera !== null) {
-      camera.style.display = "none" ? "flex" : "none"
+      camera.style.display = "flex"
     }
   }
 }
