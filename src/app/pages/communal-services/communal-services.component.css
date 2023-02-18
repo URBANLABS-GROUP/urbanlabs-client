@@ -18,3 +18,98 @@ header {
   color: #fff;
   text-decoration: none;
 }
+
+.communal {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.communal-container {
+  background-color: hsl(227, 100%, 75%);
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: #fff;
+}
+
+.communal-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.communal-price {
+  display: flex;
+  justify-content: space-between;
+}
+
+.communal-item {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.communal-item h3 {
+  font-size: 25px;
+  margin: 0;
+  padding: 10px 0;
+}
+
+.communal-item p {
+  font-size: 20px;
+  margin: 0;
+  padding-left: 10px;
+}
+
+.total {
+  width: fit-content;
+}
+
+.communal-total {
+  display: flex;
+  justify-content: end;
+}
+
+.device-analytics {
+  background-color: hsl(347deg 100% 75%);
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+}
+
+.device-analytics h3 {
+  font-size: 25px;
+  margin: 0;
+  padding: 10px 0;
+  color: #fff;
+  line-height: 30px;
+}
+
+.device-analytics p {
+  color: white;
+  font-size: 20px;
+  margin: 0;
+}
+
+.device-geolocation {
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.device-elem {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffffff2b;
+  padding: 15px 10px;
+  border-radius: 10px;
+}
+
+
