@@ -1,0 +1,51 @@
+header {
+  width: 100%;
+  height: fit-content;
+  background-color: #526ed3;
+
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  height: 45px;
+}
+
+.page-name {
+  font-size: 20px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.avatar-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.avatar-container {
+  font-size: 25px;
+  color: #526ed3;
+}
+
+.avatar {
+  width: 100px;
+  border-radius: 50%;
+  border: 5px solid #526ed3;
+}
+
+.personal-input {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 10px;
+}
+
+.edit-button {
+  display: flex;
+  justify-content: center;
+}
