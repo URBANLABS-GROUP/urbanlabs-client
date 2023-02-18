@@ -30,6 +30,11 @@ header {
   text-decoration: none;
 }
 
+.blur {
+  filter: blur(4px);
+  pointer-events: none;
+}
+
 .notifications {
   color: hsl(0, 0%, 100%);
   width: 2rem;
@@ -113,4 +118,37 @@ header {
 
 .item-image img {
   width: 50px;
+}
+
+
+.banner img {
+ width: 50px;
+}
+
+.banner h3 {
+  font-size: 18px;
+}
+
+.banner p {
+  font-size: 15px;
+  margin-top: 0;
+}
+
+.banner button {
+  padding-top: 10px;
+}
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  color: #526ed3;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  z-index: 999;
+  background-color: #fff;
+  width: 100%;
+  padding: 30px 0 15px 0;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
 }
