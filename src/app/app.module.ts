@@ -24,6 +24,7 @@ import { CommunalServicesComponent } from './pages/communal-services/communal-se
 import { CamerasComponent } from './pages/cameras/cameras.component';
 import { AccessControlComponent } from './pages/access-control/access-control.component';
 import { DocumentationComponent } from './pages/documentation/documentation.component'
+import { TuiAxesModule, TuiBarChartModule } from "@taiga-ui/addon-charts"
 
 @NgModule({
   declarations: [
@@ -52,7 +53,9 @@ import { DocumentationComponent } from './pages/documentation/documentation.comp
     TuiCheckboxModule,
     TuiAccordionModule,
     TuiToggleModule,
-    FormsModule
+    FormsModule,
+    TuiAxesModule,
+    TuiBarChartModule
   ],
   providers: [ { provide: TUI_SANITIZER, useClass: NgDompurifySanitizer } ],
   bootstrap: [ AppComponent ]

@@ -112,4 +112,31 @@ header {
   border-radius: 10px;
 }
 
+.axes {
+  height: 18.75rem;
+  width: 37.5rem;
+}
 
+.schedule {
+  overflow-x: auto;
+  background-color: #fff;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.schedule-container {
+  background-color: hsl(227, 100%, 75%);
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: #fff;
+}
+
+.schedule-container h3 {
+  font-size: 22px;
+  margin: 0;
+  padding: 10px 0;
+  line-height: 30px;
+}

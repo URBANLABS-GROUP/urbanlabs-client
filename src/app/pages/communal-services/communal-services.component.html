@@ -130,4 +130,23 @@
     </div>
 
   </div>
+
+  <div class="schedule-container">
+    <h3>
+      График потребления воды и электроэнергии за год
+    </h3>
+    <div class="schedule">
+      <tui-axes
+        class="axes"
+        [axisXLabels]="labelsX"
+        [axisYLabels]="labelsY"
+      >
+        <tui-bar-chart
+          [max]="10000"
+          [value]="value"
+        ></tui-bar-chart>
+      </tui-axes>
+    </div>
+  </div>
+
 </div>
