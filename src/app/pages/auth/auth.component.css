@@ -48,3 +48,9 @@
 .help-button button {
   margin: 0;
 }
+
+@media (max-width: 1000px) {
+  .auth {
+    margin-top: 200px;
+  }
+}
