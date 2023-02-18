@@ -7,6 +7,7 @@ import { ApplicationsComponent } from "./pages/applications/applications.compone
 import { SmartHouseComponent } from "./pages/smart-house/smart-house.component"
 import { CommunalServicesComponent } from "./pages/communal-services/communal-services.component"
 import { CamerasComponent } from "./pages/cameras/cameras.component"
+import { AccessControlComponent } from "./pages/access-control/access-control.component"
 
 const routes: Routes = [
   {
@@ -36,6 +37,10 @@ const routes: Routes = [
   {
     path: 'cameras',
     component: CamerasComponent
+  },
+  {
+    path: 'access-control',
+    component: AccessControlComponent
   }
 
 ]

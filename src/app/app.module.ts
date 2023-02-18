@@ -21,7 +21,8 @@ import { PaymentComponent } from './pages/payment/payment.component';
 import { ApplicationsComponent } from './pages/applications/applications.component';
 import { SmartHouseComponent } from './pages/smart-house/smart-house.component';
 import { CommunalServicesComponent } from './pages/communal-services/communal-services.component';
-import { CamerasComponent } from './pages/cameras/cameras.component'
+import { CamerasComponent } from './pages/cameras/cameras.component';
+import { AccessControlComponent } from './pages/access-control/access-control.component'
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { CamerasComponent } from './pages/cameras/cameras.component'
     ApplicationsComponent,
     SmartHouseComponent,
     CommunalServicesComponent,
-    CamerasComponent
+    CamerasComponent,
+    AccessControlComponent
   ],
   imports: [
     BrowserModule,
