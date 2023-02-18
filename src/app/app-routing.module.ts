@@ -6,6 +6,7 @@ import { PaymentComponent } from "./pages/payment/payment.component"
 import { ApplicationsComponent } from "./pages/applications/applications.component"
 import { SmartHouseComponent } from "./pages/smart-house/smart-house.component"
 import { CommunalServicesComponent } from "./pages/communal-services/communal-services.component"
+import { CamerasComponent } from "./pages/cameras/cameras.component"
 
 const routes: Routes = [
   {
@@ -31,6 +32,10 @@ const routes: Routes = [
   {
     path: 'communal-services',
     component: CommunalServicesComponent
+  },
+  {
+    path: 'cameras',
+    component: CamerasComponent
   }
 
 ]

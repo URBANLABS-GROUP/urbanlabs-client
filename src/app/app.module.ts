@@ -20,7 +20,8 @@ import { FormsModule, ReactiveFormsModule } from "@angular/forms"
 import { PaymentComponent } from './pages/payment/payment.component';
 import { ApplicationsComponent } from './pages/applications/applications.component';
 import { SmartHouseComponent } from './pages/smart-house/smart-house.component';
-import { CommunalServicesComponent } from './pages/communal-services/communal-services.component'
+import { CommunalServicesComponent } from './pages/communal-services/communal-services.component';
+import { CamerasComponent } from './pages/cameras/cameras.component'
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { CommunalServicesComponent } from './pages/communal-services/communal-se
     PaymentComponent,
     ApplicationsComponent,
     SmartHouseComponent,
-    CommunalServicesComponent
+    CommunalServicesComponent,
+    CamerasComponent
   ],
   imports: [
     BrowserModule,
