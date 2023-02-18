@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./access-control.component.css']
 })
 export class AccessControlComponent {
-
+  public openCamera(id: any) {
+    const camera = document.getElementById(id)
+    if (camera !== null) {
+      camera.style.display = "none" ? "flex" : "none"
+    }
+  }
 }
