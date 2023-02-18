@@ -46,6 +46,7 @@ header {
 
 .control-button button {
   margin: 0;
+  width: 40%;
 }
 
 .control-camera {
