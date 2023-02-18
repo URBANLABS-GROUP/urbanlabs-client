@@ -19,6 +19,67 @@
 </header>
 
 <div class="communal">
+
+  <div class="device-analytics">
+    <h3>
+      Устройства с наибольшим потреблением:
+    </h3>
+
+    <div class="device-elem">
+      <p>
+        Розетка №3
+      </p>
+      <a class="device-geolocation" routerLink="/" routerLinkActive="active">
+        <tui-svg
+          class="notifications"
+          src="tuiIconMapPinLarge">
+        </tui-svg>
+      </a>
+    </div>
+
+    <div class="device-elem">
+      <p>
+        Чайник
+      </p>
+      <a class="device-geolocation" routerLink="/" routerLinkActive="active">
+        <tui-svg
+          class="notifications"
+          src="tuiIconMapPinLarge">
+        </tui-svg>
+      </a>
+    </div>
+
+    <div class="device-elem">
+      <p>
+        Климат
+      </p>
+      <a class="device-geolocation" routerLink="/" routerLinkActive="active">
+        <tui-svg
+          class="notifications"
+          src="tuiIconMapPinLarge">
+        </tui-svg>
+      </a>
+    </div>
+  </div>
+
+  <div class="schedule-container">
+    <h3>
+      График потребления воды и электроэнергии за год
+    </h3>
+    <div class="schedule">
+      <tui-axes
+        class="axes"
+        [axisXLabels]="labelsX"
+        [axisYLabels]="labelsY"
+      >
+        <tui-bar-chart
+          [max]="10000"
+          [value]="value"
+        ></tui-bar-chart>
+      </tui-axes>
+    </div>
+  </div>
+
   <div class="communal-container">
     <div class="communal-item">
       <div class="communal-header">
@@ -85,67 +146,6 @@
           </h3>
         </div>
       </div>
-    </div>
-  </div>
-
-  <div class="device-analytics">
-    <h3>
-      Устройства с наибольшим потреблением:
-    </h3>
-
-    <div class="device-elem">
-      <p>
-        Розетка №3
-      </p>
-      <a class="device-geolocation" routerLink="/" routerLinkActive="active">
-        <tui-svg
-          class="notifications"
-          src="tuiIconMapPinLarge">
-        </tui-svg>
-      </a>
-    </div>
-
-    <div class="device-elem">
-      <p>
-        Чайник
-      </p>
-      <a class="device-geolocation" routerLink="/" routerLinkActive="active">
-        <tui-svg
-          class="notifications"
-          src="tuiIconMapPinLarge">
-        </tui-svg>
-      </a>
-    </div>
-
-    <div class="device-elem">
-      <p>
-        Климат
-      </p>
-      <a class="device-geolocation" routerLink="/" routerLinkActive="active">
-        <tui-svg
-          class="notifications"
-          src="tuiIconMapPinLarge">
-        </tui-svg>
-      </a>
-    </div>
-
-  </div>
-
-  <div class="schedule-container">
-    <h3>
-      График потребления воды и электроэнергии за год
-    </h3>
-    <div class="schedule">
-      <tui-axes
-        class="axes"
-        [axisXLabels]="labelsX"
-        [axisYLabels]="labelsY"
-      >
-        <tui-bar-chart
-          [max]="10000"
-          [value]="value"
-        ></tui-bar-chart>
-      </tui-axes>
     </div>
   </div>
 
