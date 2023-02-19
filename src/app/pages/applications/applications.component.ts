@@ -22,4 +22,18 @@ export class ApplicationsComponent {
     }
   }
 
+  public closeBanner() {
+    const applicationsBanner = document.getElementById("applications-banner")
+    if (applicationsBanner !== null) {
+      applicationsBanner.style.display = "none"
+    }
+  }
+
+  public openBanner() {
+    const applicationsBanner = document.getElementById("applications-banner")
+    if (applicationsBanner !== null) {
+      applicationsBanner.style.display = "flex"
+    }
+  }
+
 }
