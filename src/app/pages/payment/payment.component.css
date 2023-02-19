@@ -1,0 +1,69 @@
+header {
+  width: 100%;
+  height: fit-content;
+  background-color: #526ed3;
+
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  height: 45px;
+}
+
+.page-name {
+  font-size: 20px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.payment-info {
+  margin: 10px;
+}
+
+.card {
+  background-color: hsl(227deg 100% 75% / 50%);
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-bottom img {
+  width: 70px;
+}
+
+.card-details {
+  display: flex;
+  gap: 10px;
+}
+
+.card-save {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.card-save p {
+  margin-top: 0;
+}
+
+.payment-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.error-message {
+  color: #D35252;
+  text-align: center;
+}

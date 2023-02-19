@@ -1,0 +1,158 @@
+<header>
+  <div class="header">
+    <a class="page-name" routerLink="/home" routerLinkActive="active">
+      <tui-svg
+        class="notifications"
+        src="tuiIconArrowLeftLarge">
+      </tui-svg>
+    </a>
+    <a class="page-name" routerLink="/" routerLinkActive="active">
+      Умный дом
+    </a>
+    <a class="page-name" routerLink="/" routerLinkActive="active">
+      <tui-svg
+        class="notifications"
+        src="tuiIconBellLarge">
+      </tui-svg>
+    </a>
+  </div>
+</header>
+
+<div class="house-item">
+  <div class="house-item-container">
+    <div class="house-item-name">
+      <p>
+        Свет
+      </p>
+      <tui-toggle
+        size="l"
+        class="tui-space_right-1"
+      ></tui-toggle>
+    </div>
+    <div class="house-item-image">
+      <img src="assets/image-smart-house/light.svg" alt="light">
+    </div>
+  </div>
+
+  <div class="house-item-container">
+    <div class="house-item-name">
+      <p>
+        Розетки
+      </p>
+      <tui-toggle
+        size="l"
+        class="tui-space_right-1"
+      ></tui-toggle>
+    </div>
+    <div class="house-item-image">
+      <img src="assets/image-smart-house/socket.svg" alt="socket">
+    </div>
+  </div>
+
+  <div class="house-item-container">
+    <div class="house-item-name">
+      <p>
+        Чайник
+      </p>
+      <tui-toggle
+        size="l"
+        class="tui-space_right-1"
+      ></tui-toggle>
+    </div>
+    <div class="house-item-image">
+      <img src="assets/image-smart-house/teapot.svg" alt="teapot">
+    </div>
+  </div>
+
+  <div class="house-item-container">
+    <div class="house-item-name">
+      <p>
+        Климат
+      </p>
+      <tui-toggle
+        size="l"
+        class="tui-space_right-1"
+      ></tui-toggle>
+    </div>
+    <div class="house-item-image">
+      <img src="assets/image-smart-house/climate.svg" alt="climate">
+    </div>
+  </div>
+
+  <div class="house-item-container">
+    <div class="house-item-name">
+      <p>
+        Кофе
+      </p>
+      <tui-toggle
+        size="l"
+        class="tui-space_right-1"
+      ></tui-toggle>
+    </div>
+    <div class="house-item-image">
+      <img src="assets/image-smart-house/coffee.svg" alt="coffee">
+    </div>
+  </div>
+
+  <div class="house-item-container">
+    <div class="house-item-name">
+      <p>
+        Двери
+      </p>
+      <tui-toggle
+        size="l"
+        class="tui-space_right-1"
+      ></tui-toggle>
+    </div>
+    <div class="house-item-image">
+      <img src="assets/image-smart-house/door.svg" alt="door">
+    </div>
+  </div>
+</div>
+
+<div class="off-button">
+  <button
+    tuiButton
+    type="button"
+    appearance="primary"
+    class="tui-space_right-3 tui-space_bottom-3"
+    (click)="openBanner()"
+  >
+    Выключить все
+  </button>
+
+  <button
+    tuiButton
+    type="button"
+    appearance="primary"
+    class="tui-space_right-3 tui-space_bottom-3"
+    (click)="openBanner()"
+  >
+    Выключать все при уходе
+  </button>
+
+  <button
+    tuiButton
+    type="button"
+    appearance="primary"
+    class="tui-space_right-3 tui-space_bottom-3"
+  >
+    Настроить расписание
+  </button>
+</div>
+
+<div class="smart-banner" id="smart-banner">
+  <img src="../../../assets/image-home/done.svg" alt="documentation">
+  <h3>
+    Выполнено!
+  </h3>
+  <button
+    tuiButton
+    type="button"
+    appearance="primary"
+    class="tui-space_right-3 tui-space_bottom-3"
+    (click)="closeBanner()"
+  >
+    Хорошо
+  </button>
+</div>

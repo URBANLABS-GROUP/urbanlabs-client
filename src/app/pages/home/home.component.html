@@ -1,0 +1,110 @@
+<header>
+  <div class="header blur">
+    <a class="my-account" routerLink="/personal-account" routerLinkActive="active">
+      <img class="avatar" src="/assets/image-home/avatar.jpg" alt="avatar">
+    </a>
+    <a class="page-name" routerLink="/" routerLinkActive="active">
+      Главная
+    </a>
+    <a class="page-name" routerLink="/" routerLinkActive="active">
+      <tui-svg
+        class="notifications"
+        src="tuiIconBellLarge">
+      </tui-svg>
+    </a>
+  </div>
+</header>
+
+<div class="payment blur">
+  <a class="balance-container" routerLink="/payment" routerLinkActive="active">
+    <div class="my-balance">
+      <p class="current-balance">20 000,00 ₽</p>
+      <p class="small-text">Срок уплаты аренды: 1 марта</p>
+    </div>
+    <img class="payment-image" src="assets/image-home/payment.svg">
+  </a>
+</div>
+
+<div class="operations blur">
+  <a routerLink="/applications" routerLinkActive="active">
+    <div class="item">
+      <p>
+        Мои заявки
+      </p>
+      <div class="item-image">
+        <img src="assets/image-home/applications.svg" alt="applications">
+      </div>
+    </div>
+  </a>
+  <a routerLink="/smart-house" routerLinkActive="active">
+    <div class="item">
+      <p>
+        Умный дом
+      </p>
+      <div class="item-image">
+        <img src="assets/image-home/smart-house.svg" alt="smart house">
+      </div>
+    </div>
+  </a>
+  <a routerLink="/communal-services" routerLinkActive="active">
+    <div class="item">
+      <p>
+        ЖКХ
+      </p>
+      <div class="item-image">
+        <img src="assets/image-home/communal-services.svg" alt="communal services">
+      </div>
+    </div>
+  </a>
+  <a routerLink="/cameras" routerLinkActive="active">
+    <div class="item">
+      <p>
+        Камеры
+      </p>
+      <div class="item-image">
+        <img src="assets/image-home/cameras.svg" alt="cameras">
+      </div>
+    </div>
+  </a>
+  <a routerLink="/access-control" routerLinkActive="active">
+    <div class="item">
+      <p>
+        Контроль доступа
+      </p>
+      <div class="item-image">
+        <img src="assets/image-home/access-control.svg" alt="access control">
+      </div>
+    </div>
+  </a>
+  <a routerLink="/documentation" routerLinkActive="active">
+    <div class="item">
+      <p>
+        Документы
+      </p>
+      <div class="item-image">
+        <img src="assets/image-home/documentation.svg" alt="documentation">
+      </div>
+    </div>
+  </a>
+</div>
+
+<div class="banner" id="banner">
+  <img src="../../../assets/image-home/notification.svg" alt="documentation">
+  <h3>
+    Скоро списание арендной платы!
+  </h3>
+  <p>
+    Не забудьте своевременно пополнить счет!
+  </p>
+  <button
+    tuiButton
+    type="button"
+    appearance="primary"
+    class="tui-space_right-3 tui-space_bottom-3"
+    (click)="closeBanner()"
+  >
+    Хорошо
+  </button>
+</div>
+
+

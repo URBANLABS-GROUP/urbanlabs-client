@@ -1,0 +1,141 @@
+<header>
+  <div class="header">
+    <a class="page-name" routerLink="/home" routerLinkActive="active">
+      <tui-svg
+        class="notifications"
+        src="tuiIconArrowLeftLarge">
+      </tui-svg>
+    </a>
+    <a class="page-name" routerLink="/" routerLinkActive="active">
+      Контроль доступа
+    </a>
+    <a class="page-name" routerLink="/" routerLinkActive="active">
+      <tui-svg
+        class="notifications"
+        src="tuiIconBellLarge">
+      </tui-svg>
+    </a>
+  </div>
+</header>
+
+<div class="control-item">
+  <h3>
+    Домофон
+  </h3>
+  <div class="control-button">
+    <button
+      tuiButton
+      type="button"
+      appearance="primary"
+      class="tui-space_right-3 tui-space_bottom-3"
+      (click)="openCamera(1)"
+    >
+      <tui-svg
+        class="notifications"
+        src="tuiIconCameraLarge">
+      </tui-svg>
+    </button>
+    <button
+      tuiButton
+      type="button"
+      appearance="primary"
+      class="tui-space_right-3 tui-space_bottom-3"
+      (click)="openBanner()"
+    >
+      <tui-svg
+        class="notifications"
+        src="tuiIconKeyLarge">
+      </tui-svg>
+    </button>
+  </div>
+  <div class="control-camera" id="1">
+    <img src="assets/image-cameras/domofon.jpg" alt="domofon">
+  </div>
+</div>
+
+<div class="control-item">
+  <h3>
+    Ворота
+  </h3>
+  <div class="control-button">
+    <button
+      tuiButton
+      type="button"
+      appearance="primary"
+      class="tui-space_right-3 tui-space_bottom-3"
+      (click)="openCamera(2)"
+    >
+      <tui-svg
+        class="notifications"
+        src="tuiIconCameraLarge">
+      </tui-svg>
+    </button>
+    <button
+      tuiButton
+      type="button"
+      appearance="primary"
+      class="tui-space_right-3 tui-space_bottom-3"
+      (click)="openBanner()"
+    >
+      <tui-svg
+        class="notifications"
+        src="tuiIconKeyLarge">
+      </tui-svg>
+    </button>
+  </div>
+  <div class="control-camera" id="2">
+    <img src="assets/image-cameras/gates.jpg" alt="gates">
+  </div>
+</div>
+
+<div class="control-item">
+  <h3>
+    Дверь
+  </h3>
+  <div class="control-button">
+    <button
+      tuiButton
+      type="button"
+      appearance="primary"
+      class="tui-space_right-3 tui-space_bottom-3"
+      (click)="openCamera(3)"
+    >
+      <tui-svg
+        class="notifications"
+        src="tuiIconCameraLarge">
+      </tui-svg>
+    </button>
+    <button
+      tuiButton
+      type="button"
+      appearance="primary"
+      class="tui-space_right-3 tui-space_bottom-3"
+      (click)="openBanner()"
+    >
+      <tui-svg
+        class="notifications"
+        src="tuiIconKeyLarge">
+      </tui-svg>
+    </button>
+  </div>
+  <div class="control-camera" id="3">
+    <img src="assets/image-cameras/door.jpg" alt="door">
+  </div>
+</div>
+
+<div class="control-banner" id="control-banner">
+  <img src="../../../assets/image-home/done.svg" alt="documentation">
+  <h3>
+    Открыто!
+  </h3>
+  <button
+    tuiButton
+    type="button"
+    appearance="primary"
+    class="tui-space_right-3 tui-space_bottom-3"
+    (click)="closeBanner()"
+  >
+    Хорошо
+  </button>
+</div>
+

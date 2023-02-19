@@ -1,0 +1,87 @@
+header {
+  width: 100%;
+  height: fit-content;
+  background-color: #526ed3;
+
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  height: 45px;
+}
+
+.page-name {
+  font-size: 20px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.create-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.applications {
+  padding: 10px;
+}
+
+.create-application {
+  padding: 10px;
+  display: none;
+  flex-direction: column;
+}
+
+.create-application h3 {
+  text-align: center;
+}
+
+.application-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.close-form {
+  font-size: 20px;
+  color: #fff;
+  text-decoration: none;
+  display: none;
+}
+
+.applications-banner {
+  display: none;
+  flex-direction: column;
+  color: #526ed3;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 999;
+  background-color: #fff;
+  width: 100%;
+  padding: 30px 0 15px 0;
+  margin-bottom: 20px;
+  border-radius: 30px;
+}
+
+.applications-banner img {
+  width: 50px;
+}
+
+.applications-banner h3 {
+  font-size: 18px;
+}
+
+.applications-banner p {
+  font-size: 15px;
+  margin-top: 0;
+}
+
+.applications-banner button {
+  padding-top: 10px;
+  margin: 0;
+}

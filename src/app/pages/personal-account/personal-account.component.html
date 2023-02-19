@@ -1,0 +1,71 @@
+<header>
+  <div class="header">
+    <a class="page-name" routerLink="/home" routerLinkActive="active">
+      <tui-svg
+        class="notifications"
+        src="tuiIconArrowLeftLarge">
+      </tui-svg>
+    </a>
+    <a class="page-name" routerLink="/" routerLinkActive="active">
+      Личный кабинет
+    </a>
+    <a class="page-name" routerLink="/" routerLinkActive="active">
+      <tui-svg
+        class="notifications"
+        src="tuiIconBellLarge">
+      </tui-svg>
+    </a>
+  </div>
+</header>
+
+<div class="avatar-container">
+  <img class="avatar" src="/assets/image-home/avatar.jpg" alt="avatar">
+  <h3>
+    Привет, Иван
+  </h3>
+</div>
+
+<div class="personal-input">
+  <tui-input>
+    Иванов Иван Иванович
+    <input
+      tuiTextfield
+      type="text"
+    />
+  </tui-input>
+
+  <tui-input>
+    Договор №033-ТТ
+    <input
+      tuiTextfield
+      type="text"
+    />
+  </tui-input>
+
+  <tui-input>
+    Офис №111
+    <input
+      tuiTextfield
+      type="text"
+    />
+  </tui-input>
+
+  <tui-input>
+    г. Краснодар, ул. Северная, 405
+    <input
+      tuiTextfield
+      type="text"
+    />
+  </tui-input>
+
+  <div class="edit-button">
+    <button
+      tuiButton
+      type="button"
+      appearance="primary"
+      class="tui-space_right-3 tui-space_bottom-3"
+    >
+      Редактировать
+    </button>
+  </div>
+</div>
