@@ -116,6 +116,7 @@
     type="button"
     appearance="primary"
     class="tui-space_right-3 tui-space_bottom-3"
+    (click)="openBanner()"
   >
     Выключить все
   </button>
@@ -125,6 +126,7 @@
     type="button"
     appearance="primary"
     class="tui-space_right-3 tui-space_bottom-3"
+    (click)="openBanner()"
   >
     Выключать все при уходе
   </button>
@@ -136,5 +138,21 @@
     class="tui-space_right-3 tui-space_bottom-3"
   >
     Настроить расписание
+  </button>
+</div>
+
+<div class="smart-banner" id="smart-banner">
+  <img src="../../../assets/image-home/done.svg" alt="documentation">
+  <h3>
+    Выполнено!
+  </h3>
+  <button
+    tuiButton
+    type="button"
+    appearance="primary"
+    class="tui-space_right-3 tui-space_bottom-3"
+    (click)="closeBanner()"
+  >
+    Хорошо
   </button>
 </div>
