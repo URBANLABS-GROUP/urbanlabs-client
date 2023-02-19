@@ -136,6 +136,7 @@ header {
 
 .banner button {
   padding-top: 10px;
+  margin: 0;
 }
 
 .banner {
@@ -145,6 +146,7 @@ header {
   align-items: center;
   position: fixed;
   bottom: 0;
+  left: 0;
   z-index: 999;
   background-color: #fff;
   width: 100%;
