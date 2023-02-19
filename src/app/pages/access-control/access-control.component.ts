@@ -12,4 +12,18 @@ export class AccessControlComponent {
       camera.style.display = "flex"
     }
   }
+
+  public closeBanner() {
+    const controlBanner = document.getElementById("control-banner")
+    if (controlBanner !== null) {
+      controlBanner.style.display = "none"
+    }
+  }
+
+  public openBanner() {
+    const controlBanner = document.getElementById("control-banner")
+    if (controlBanner !== null) {
+      controlBanner.style.display = "flex"
+    }
+  }
 }

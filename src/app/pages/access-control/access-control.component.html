@@ -40,6 +40,7 @@
       type="button"
       appearance="primary"
       class="tui-space_right-3 tui-space_bottom-3"
+      (click)="openBanner()"
     >
       <tui-svg
         class="notifications"
@@ -74,6 +75,7 @@
       type="button"
       appearance="primary"
       class="tui-space_right-3 tui-space_bottom-3"
+      (click)="openBanner()"
     >
       <tui-svg
         class="notifications"
@@ -108,6 +110,7 @@
       type="button"
       appearance="primary"
       class="tui-space_right-3 tui-space_bottom-3"
+      (click)="openBanner()"
     >
       <tui-svg
         class="notifications"
@@ -120,4 +123,19 @@
   </div>
 </div>
 
+<div class="control-banner" id="control-banner">
+  <img src="../../../assets/image-home/done.svg" alt="documentation">
+  <h3>
+    Открыто!
+  </h3>
+  <button
+    tuiButton
+    type="button"
+    appearance="primary"
+    class="tui-space_right-3 tui-space_bottom-3"
+    (click)="closeBanner()"
+  >
+    Хорошо
+  </button>
+</div>
 
