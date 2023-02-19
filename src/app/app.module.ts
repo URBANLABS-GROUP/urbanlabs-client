@@ -15,7 +15,13 @@ import { AppRoutingModule } from "./app-routing.module"
 import { AppComponent } from "./app.component";
 import { AuthComponent } from './pages/auth/auth.component';
 import { HomeComponent } from './pages/home/home.component'
-import { TuiAccordionModule, TuiCheckboxModule, TuiInputModule, TuiToggleModule } from "@taiga-ui/kit"
+import {
+  TuiAccordionModule,
+  TuiCheckboxModule,
+  TuiInputModule,
+  TuiInputPasswordModule,
+  TuiToggleModule
+} from "@taiga-ui/kit"
 import { FormsModule, ReactiveFormsModule } from "@angular/forms"
 import { PaymentComponent } from './pages/payment/payment.component';
 import { ApplicationsComponent } from './pages/applications/applications.component';
@@ -57,7 +63,8 @@ import { PersonalAccountComponent } from './pages/personal-account/personal-acco
     TuiToggleModule,
     FormsModule,
     TuiAxesModule,
-    TuiBarChartModule
+    TuiBarChartModule,
+    TuiInputPasswordModule
   ],
   providers: [ { provide: TUI_SANITIZER, useClass: NgDompurifySanitizer } ],
   bootstrap: [ AppComponent ]
